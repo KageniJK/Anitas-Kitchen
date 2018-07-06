@@ -97,14 +97,8 @@
   padding-top: 10px;
 }
 
-.img-crd{
-  display:inline;
-  width: 20em;
-
-}
-
-.img-food{
-  display: block;
+card {
+  width: 30rem;
 }
 
 .subscription{
@@ -112,4 +106,8 @@
   text-align: center;
   height: 300px;
   padding-top: 100px;
+}
+
+.to-left{
+  float: left;
 }
