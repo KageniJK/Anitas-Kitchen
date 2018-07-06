@@ -1,7 +1,14 @@
+.container{
+
+}
+
 .jumbotron{
   background-image: url("../img/backgrounds/landing.jpg");
   text-align: center;
   color: #ffffff;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 #tagline{
@@ -50,4 +57,16 @@
 .row{
   border:0;
   padding: 0;
+}
+
+div{
+  padding: 0;
+}
+
+.gallery-menu{
+  background-image: url("../img/backgrounds/foodsBg.jpg");
+}
+
+.subscription{
+  background-image: url("../img/backgrounds/subscribe.jpg");
 }
