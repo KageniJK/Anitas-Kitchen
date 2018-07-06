@@ -1,14 +1,9 @@
-.container{
-
-}
-
 .jumbotron{
   background-image: url("../img/backgrounds/landing.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
   text-align: center;
   color: #ffffff;
-  padding: 0;
-  margin: 0;
-  border: 0;
 }
 
 #tagline{
@@ -19,8 +14,6 @@
   background-image: url("../img/foodtop/breakfast.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  border:0;
-  margin:  0px;
   font-size: 40px;
   text-align: center;
   color: #ffffff;
@@ -31,7 +24,6 @@
   background-image: url("../img/foodtop/lunch.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  margin:  0px;
   font-size: 40px;
   text-align: center;
   color: #ffffff;
@@ -41,7 +33,6 @@
   background-image: url("../img/foodtop/dinner.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  margin:  0px;
   font-size: 40px;
   text-align: center;
   color: #ffffff;
@@ -50,18 +41,9 @@
 
 .party{
   background-color: #F15A29;
-  border:0;
-  margin:0;
+  text-align: center;
 }
 
-.row{
-  border:0;
-  padding: 0;
-}
-
-div{
-  padding: 0;
-}
 
 .gallery-menu{
   background-image: url("../img/backgrounds/foodsBg.jpg");
@@ -69,4 +51,9 @@ div{
 
 .subscription{
   background-image: url("../img/backgrounds/subscribe.jpg");
+}
+
+.footer{
+  background-color: #F15A29;
+  text-align: center;
 }
