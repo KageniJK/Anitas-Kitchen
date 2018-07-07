@@ -90,6 +90,8 @@
 
 .gallery-menu{
   background-image: url("../img/backgrounds/foodsBg.jpg");
+  height: 500px;
+  color: #ffffff;
 }
 
 .subscription{
@@ -121,3 +123,5 @@ card {
 .body{
   background-color: #000000;
 }
+
+h
