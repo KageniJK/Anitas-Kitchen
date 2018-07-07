@@ -7,13 +7,11 @@
   border-radius: 0;
   margin-bottom: 0:
   border:0;
-  height:auto;
 }
 
 #tagline{
   font-size: 50px;
 }
-
 
 #breakfast{
   background-image: url("../img/foodtop/breakfast.jpg");
@@ -72,7 +70,6 @@
   height: 10rem;
 }
 
-
 .happy-party{
   margin-left: 0;
 }
@@ -86,7 +83,6 @@
 #happy{
   text-align: center;
 }
-
 
 .gallery-menu{
   background-image: url("../img/backgrounds/foodsBg.jpg");
@@ -105,8 +101,8 @@
   padding-bottom: 10px;
 }
 
-card {
-  width: 30rem;
+.card {
+  max-width: 30rem;
 }
 
 .subscription{
@@ -120,8 +116,7 @@ card {
   float: left;
 }
 
-.body{
+.card-body{
   background-color: #000000;
+  margin: auto;
 }
-
-h
