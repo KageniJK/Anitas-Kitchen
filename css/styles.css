@@ -112,11 +112,12 @@
   padding-top: 100px;
 }
 
-.to-left{
-  float: left;
+.drinks{
+  text-align: right;
 }
 
 .card-body{
-  background-color: #000000;
+  background-color: #ffffff;
   margin: auto;
+  box-shadow: 30px;
 }
