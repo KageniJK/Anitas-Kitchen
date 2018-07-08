@@ -87,7 +87,8 @@
 .gallery-menu{
   background-image: url("../img/backgrounds/foodsBg.jpg");
   height: 500px;
-  color: #ffffff;
+  color: #000000;
+  padding-top: 10%;
 }
 
 .subscription{
@@ -105,7 +106,8 @@
   max-width: 30rem;
   width: auto;
   padding: 16;
-  max-height: 20rem;
+  max-height: 30rem;
+  height: auto;
 }
 
 .subscription{
@@ -144,7 +146,7 @@
 .testimony{
   min-width: 80%;
   text-align: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 5px 4px rgba(7, 59, 244, 0.2), 10px 6px 20px 10px rgba(0, 48, 254, 0.2);
 }
 
 .testimonials{
