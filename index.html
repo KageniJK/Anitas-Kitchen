@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
   <script src="js/scripts.js"></script>
   <title>Anita's Kitchen</title>
@@ -15,7 +16,7 @@
   <div class="container-fluid">
 
     <div class="jumbotron">
-      <div class="container-fluid">
+      <div class="container-fluid" id="jumbo">
         <img src="img/logoBig.png" alt="Anita's kitchen logo">
         <h1 id="tagline">We Provide The Best Food <br> At The <strong>Right Price</strong></h1>
       </div>
@@ -24,7 +25,7 @@
     <div class="row meals">
       <div class="row col-md-3 happy-party">
         <p class="col-md-12 h3" id="happy">Happy Hour</p>
-        <p class="col-md-12 h3 party">Party Time</p>
+        <p class="col-md-12 h3" id="party">Party Time</p>
       </div>
       <p class="col-md-3" id="breakfast">Breakfast</p>
       <p class="col-md-3" id="lunch">Lunch</p>
@@ -63,8 +64,8 @@
 
       <div class="col-md-6 card card-body meals-crd">
         <div class="row">
-          <img src="img/drink1.jpg" alt="drink" class="col-md-6" id = "card-img1">
-          <img src="img/drink2.jpg" alt="drink" class="col-md-6" id = "card-img2">
+          <img src="img/drink1.jpg" alt="drink" class="col-md-6" id="card-img1">
+          <img src="img/drink2.jpg" alt="drink" class="col-md-6" id="card-img2">
         </div>
       </div>
 
@@ -74,12 +75,18 @@
 
     <div class="gallery-menu ">
       <div class="card card-body gal">
-        <ul class="nav nav-tabs nav-fill nav-">
-          <li class="active nav-item">Fast Foods</li>
+        <!--<ul class="nav nav-tabs nav-fill nav-">
+          <li class="nav-item active">Fast Foods</li>
           <li class="nav-item">Drinks</li>
           <li class="nav-item">Chicken</li>
           <li class="nav-item">Rice</li>
-        </ul>
+        </ul>-->
+        <div class="row">
+          <div class="col-md-3">Fast Food</div>
+          <div class="col-md-3">Drinks</div>
+          <div class="col-md-3">Chicken</div>
+          <div class="col-md-3">Rice</div>
+        </div>
         <div class="row">
           <div class="col-md-1 arrow-left">
             <p id="arrow-left">&#60;</p>
@@ -127,7 +134,9 @@
           <div class="col-md-1"></div>
           <div class="col-md-4 about">
             <h2>About Menu</h2>
-            <p>We are menu a little team of 7 members. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
+            <p>We are menu a little team of 7 members.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla
+            </p>
           </div>
         </div>
       </div>
@@ -135,17 +144,16 @@
 
     <div class="subscription">
       <h2>Get our daily food items delivered to your email</h2>
-      <form id="subscribe">
-        <div class="form-group">
-          <input id="email" type="email" placeholder="Your email" required>
-          <input type="submit" name="submit">
-        </div>
 
-      </form>
+          <form action="">
+                      <input type="email" name="email" class="formStyle" placeholder="Your Email" required />
+                      <a href="#" class="formButton">Subscribe</a>
+                </form>
+
     </div>
 
     <div class="footer">
-      <p> <img src="img/footerlogos/logo_white.png" alt="logo">MENU</p>
+      <p> <img src="img/footerlogos/logo_white.png" alt="logo"> MENU</p>
       <p>Thats What We Are</p>
       <p>
         <img src="img/footerlogos/facebook.png" alt="facebook">

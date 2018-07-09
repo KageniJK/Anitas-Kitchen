@@ -2,10 +2,13 @@
   background-image: url("../img/backgrounds/landing.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  text-align: center;
-  color: #ffffff;
   border-radius: 0;
   margin-bottom: 0: border:0;
+}
+
+#jumbo {
+  text-align: center;
+  color: #ffffff;
 }
 
 #tagline {
@@ -24,7 +27,7 @@
   border: 1px;
   border-color: #000000;
   margin-bottom: 0;
-  padding: 0;
+  padding-top: 3%;
   height: 10rem;
 }
 
@@ -52,7 +55,7 @@
   text-align: center;
   color: #ffffff;
   margin-bottom: 0;
-  padding: 0;
+  padding-top: 3%;
   height: 10rem;
 }
 
@@ -65,7 +68,7 @@
   text-align: center;
   color: #ffffff;
   margin-bottom: 0;
-  padding: 0;
+  padding-top: 3%;
   height: 10rem;
 }
 
@@ -73,14 +76,16 @@
   margin-left: 0;
 }
 
-.party {
+#party {
   background-color: #F15A29;
   text-align: center;
   margin-bottom: 0;
+  padding-top: 4%;
 }
 
 #happy {
   text-align: center;
+  padding-top: 4%;
 }
 
 .gallery-menu {
@@ -99,6 +104,7 @@
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
+  color: rgb(255, 255, 255);
 }
 
 .card {
@@ -192,7 +198,7 @@
   color: #F15A29;
 }
 
-.arrow-right{
+.arrow-right {
   padding: 0;
   margin-left: 50px;
   margin-right: 20px;
@@ -201,8 +207,7 @@
   color: #F15A29;
 }
 
-#right-arrow{
-
+#right-arrow {
   padding: 0;
   margin-left: auto;
   margin-right: auto;
@@ -211,12 +216,27 @@
   color: #F15A29;
 }
 
-#left-arrow{
-
+#left-arrow {
   padding: 0;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
   font-size: 20px;
   color: #F15A29;
+}
+
+body {
+  font-family: 'ubuntu', sans-serif;
+}
+
+.form-control{
+  width : 30%;
+  opacity: .7;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form .btn{
+  margin-left: 0;
+  padding: 10px 50px 10px 50px;
 }
