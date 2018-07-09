@@ -106,7 +106,7 @@
   max-width: 30rem;
   width: auto;
   padding: 16;
-  max-height: 30rem;
+  max-height: 25rem;
   height: auto;
 }
 
@@ -160,4 +160,13 @@
 
 .meals-card{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gal{
+  min-width: 80%;
+}
+
+.meals-row{
+  max-height: 25rem;
+  height: inherit;
 }
