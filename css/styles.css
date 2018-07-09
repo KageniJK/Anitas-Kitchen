@@ -1,19 +1,18 @@
-.jumbotron{
+.jumbotron {
   background-image: url("../img/backgrounds/landing.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   color: #ffffff;
   border-radius: 0;
-  margin-bottom: 0:
-  border:0;
+  margin-bottom: 0: border:0;
 }
 
-#tagline{
+#tagline {
   font-size: 50px;
 }
 
-#breakfast{
+#breakfast {
   background-image: url("../img/foodtop/breakfast.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -29,22 +28,22 @@
   height: 10rem;
 }
 
-#breakfast:hover{
-  opacity:  0.5;
+#breakfast:hover {
+  opacity: 0.5;
   color: #000000;
 }
 
-#lunch:hover{
-  opacity:  0.5;
+#lunch:hover {
+  opacity: 0.5;
   color: #000000;
 }
 
-#dinner:hover{
-  opacity:  0.5;
+#dinner:hover {
+  opacity: 0.5;
   color: #000000;
 }
 
-#lunch{
+#lunch {
   background-image: url("../img/foodtop/lunch.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -57,7 +56,7 @@
   height: 10rem;
 }
 
-#dinner{
+#dinner {
   background-image: url("../img/foodtop/dinner.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -70,32 +69,32 @@
   height: 10rem;
 }
 
-.happy-party{
+.happy-party {
   margin-left: 0;
 }
 
-.party{
+.party {
   background-color: #F15A29;
   text-align: center;
   margin-bottom: 0;
 }
 
-#happy{
+#happy {
   text-align: center;
 }
 
-.gallery-menu{
+.gallery-menu {
   background-image: url("../img/backgrounds/foodsBg.jpg");
   height: 500px;
   color: #000000;
   padding-top: 10%;
 }
 
-.subscription{
+.subscription {
   background-image: url("../img/backgrounds/subscribe.jpg");
 }
 
-.footer{
+.footer {
   background-color: #F15A29;
   text-align: center;
   padding-top: 10px;
@@ -110,63 +109,114 @@
   height: auto;
 }
 
-.subscription{
+.subscription {
   color: #ffffff;
   text-align: center;
   height: 300px;
   padding-top: 100px;
 }
 
-.drinks{
+.drinks {
   text-align: right;
   padding-bottom: 7%;
-  padding-top:7%;
+  padding-top: 7%;
 }
 
-.card-body{
+.card-body {
   background-color: #ffffff;
   margin: auto;
 }
 
-.card-img2{
+#card-img2 {
   padding-left: 0;
   border-radius: 0;
 }
 
-.card-img1{
+#card-img1 {
   padding-right: 0;
   border-radius: 0;
 }
 
-.gal-sel{
+.gal-sel {
   border-color: #F15A29;
   border: 3px;
 }
 
-.testimony{
+.testimony {
   min-width: 80%;
   text-align: center;
   box-shadow: 0 4px 5px 4px rgba(7, 59, 244, 0.2), 10px 6px 20px 10px rgba(0, 48, 254, 0.2);
 }
 
-.testimonials{
+.testimonials {
   padding-top: 10%;
   padding-bottom: 10%;
 }
 
-.fast-food{
+.fast-food {
   padding-top: 5%;
 }
 
-.meals-card{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.meals-crd {
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
 }
 
-.gal{
+.gal {
   min-width: 80%;
 }
 
-.meals-row{
-  max-height: 25rem;
+.meals-row {
+  max-height: 20rem;
   height: inherit;
+}
+
+.about {
+  border-left: 1px;
+  border-color: rgba(96, 95, 85, 0.65);
+  border-style: solid;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.hite {
+  max-height: 10rem;
+}
+
+.arrow-left {
+  padding: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 70px;
+  font-size: 45px;
+  color: #F15A29;
+}
+
+.arrow-right{
+  padding: 0;
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-top: 70px;
+  font-size: 45px;
+  color: #F15A29;
+}
+
+#right-arrow{
+
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  font-size: 20px;
+  color: #F15A29;
+}
+
+#left-arrow{
+
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  font-size: 20px;
+  color: #F15A29;
 }
