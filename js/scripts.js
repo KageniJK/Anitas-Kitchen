@@ -1,26 +1,13 @@
 $(document).ready(function(){
-  -  $(".toggle#enable i").click(function(e){
-+
-+  $(".subscribe-section form").submit(function(event){
-+    var email= $("input.email-input").val();
-+    alert("Thank you " +email+ " for subscribing :)");
-+    event.preventDefault();
-+  });
-+
-+  $(".toggle#enable i").click(function(){
-     $(".menu").toggleClass("active");
-     $(".toggle#enable").hide();
-     $(".toggle#disable").show();
--    $(".menu").attr("inactive");
--    e.preventDefault();
-   });
+  $("subscribe form").submit(function(event){
+    var mail = $("input#email").val();
 
--  $(".toggle#disable i").click(function(e){
-+  $(".toggle#disable i").click(function(){
-     $(".menu").toggleClass("active");
-     $(".toggle#enable").show();
-     $(".toggle#disable").hide();
--    $(".menu").attr("active");
--    e.preventDefault();
-   });
+    console.log(mail);
+
+    event.preventDefault();
+  });
+
+  $('.menu-toggle').on('click', function(){
+  $('.full-menu').toggleClass('full-menu--open');
+})
 });
