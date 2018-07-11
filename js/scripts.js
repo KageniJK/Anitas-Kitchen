@@ -1,8 +1,8 @@
 $(document).ready(function(){
-  $("subscribe form").submit(function(event){
+  $(".subscription form").submit(function(event){
     var mail = $("input#email").val();
 
-    console.log(mail);
+    alert("The email: " + mail + " has been subscribed to Anita's Kitchen mailing list.");
 
     event.preventDefault();
   });

@@ -99,17 +99,11 @@
 
     <div class="gallery-menu ">
       <div class="card card-body gal">
-        <!--<ul class="nav nav-tabs nav-fill nav-">
-          <li class="nav-item active">Fast Foods</li>
-          <li class="nav-item">Drinks</li>
-          <li class="nav-item">Chicken</li>
-          <li class="nav-item">Rice</li>
-        </ul>-->
-        <div class="row">
-          <div class="col-md-3">Fast Food</div>
-          <div class="col-md-3">Drinks</div>
-          <div class="col-md-3">Chicken</div>
-          <div class="col-md-3">Rice</div>
+        <div class="row gal-menu">
+          <div class="col-md-3 menu-active">Fast Food</div>
+          <div class="col-md-3 menu-inactive">Drinks</div>
+          <div class="col-md-3 menu-inactive">Chicken</div>
+          <div class="col-md-3 menu-inactive">Rice</div>
         </div>
         <div class="row">
           <div class="col-md-1 arrow-left">
@@ -169,9 +163,9 @@
     <div class="subscription">
       <h2>Get our daily food items delivered to your email</h2>
 
-      <form action="">
-        <input type="email" name="email" class="formStyle" placeholder="Your Email" required />
-        <a href="#" class="formButton">Subscribe</a>
+      <form>
+        <input type="email" id="email" class="formStyle" placeholder="Your Email" required />
+        <button class="formButton" type="submit">Subscribe</a>
       </form>
 
     </div>

@@ -34,16 +34,19 @@
 #breakfast:hover {
   opacity: 0.5;
   color: #000000;
+  cursor: pointer;
 }
 
 #lunch:hover {
   opacity: 0.5;
   color: #000000;
+  cursor: pointer;
 }
 
 #dinner:hover {
   opacity: 0.5;
   color: #000000;
+  cursor: pointer;
 }
 
 #lunch {
@@ -169,6 +172,21 @@
 
 .gal {
   min-width: 80%;
+  text-align: center;
+  font-size: 25px;
+  padding: 0;
+  padding-bottom: 10px;
+  border:0;
+}
+
+.gal-menu{
+  padding-bottom: 30px;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+.gal-menu:hover{
+  cursor: pointer;
 }
 
 .meals-row {
@@ -263,6 +281,13 @@ body {
 .full-menu-open {
   visibility: visible;
   opacity: 1;
+  z-index: +1;
+  background-color: #f15a29;
+  width: 100%;
+  height:100%;
+  padding: 0;
+  margin: 0;
+  border:0;
 }
 
 .full-menu-middle {
@@ -299,4 +324,22 @@ body {
   color: #000;
   font-weight: bold;
   line-height: 80px;
+}
+
+.formButton{
+  background-color: #f15a29;
+  border: 0;
+}
+
+.menu-inactive{
+  background-color: rgb(171, 171, 171);
+  padding:0;
+  margin:0;
+  max-width: auto;
+}
+
+.menu-active{
+  padding:0;
+  margin:0;
+  max-width: auto;
 }
